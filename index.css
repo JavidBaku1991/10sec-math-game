@@ -1,0 +1,62 @@
+/* Full screen background image */
+body {
+  background: url('pic.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+}
+
+h2, h4, h1 {
+  margin: 15px 0;
+} 
+
+input#user-input {
+  font-size: 1em;
+  color: #000000;
+  padding: 10px;
+  margin-top: 20px;
+  height: 70px;
+  width: 20%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#time-left, #score {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#equation {
+  font-size: 2.5em;
+  margin: 20px 0;
+}
+
+/* Ensure the page takes up full height of the viewport */
+html, body {
+  height: 100%;
+}
+
+h2, h4 {
+  color: #ffeb3b; /* Bright yellow for headings */
+}
+
+p {
+  font-size: 1.1em;
+  color: #f0f0f0;
+}
